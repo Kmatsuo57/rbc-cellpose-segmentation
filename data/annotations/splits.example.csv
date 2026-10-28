@@ -1,0 +1,3 @@
+filename,split
+example_001.tif,train
+example_002.tif,val

@@ -1,0 +1,8 @@
+# Isolated Cellpose-SAM comparison environment.
+cellpose>=4.2,<5
+imageio>=2.34,<3
+tifffile>=2024.2
+scikit-image>=0.22,<1
+matplotlib>=3.8,<4
+scipy>=1.11,<2
+umap-learn>=0.5.7,<0.6

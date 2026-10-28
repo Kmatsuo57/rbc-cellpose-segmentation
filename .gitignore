@@ -1,0 +1,22 @@
+# Raw/annotated microscopy data and generated results are intentionally not versioned.
+data/raw/*
+!data/raw/.gitkeep
+data/annotations/images/*
+!data/annotations/images/.gitkeep
+data/annotations/labels/*
+!data/annotations/labels/.gitkeep
+outputs/*
+!outputs/.gitkeep
+archive/stardist/results/
+archive/stardist/models/
+archive/
+
+# Downloaded models, environments, caches, and editor files.
+models/
+.venv/
+.venv-cellpose/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
